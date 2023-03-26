@@ -6,12 +6,12 @@ remote_theme: sighingnow/jekyll-gitbook
 version:          0.1
 gitbook_version:  3.2.3
 
-url:              'https://kaiyux.github.io'
+url:              'https://sighingnow.github.io'
 baseurl:          '/jekyll-gitbook'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
-remote_theme: kaiyux/jekyll-gitbook
+remote_theme: sighingnow/jekyll-gitbook
 
 toc:
   enabled: true
@@ -41,7 +41,7 @@ markdown_ext:             markdown,mkdown,mkdn,mkd,md
 permalink:                /:categories/:year-:month-:day-:title:output_ext
 
 # Disqus comments
-# disqushandler:            kaiyux
+# disqushandler:            sighingnow
 
 exclude:
   - _drafts
