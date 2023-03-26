@@ -1,8 +1,7 @@
 # Configurations
-title:            Kaiyu's homepage
-longtitle:        Stay focused, stay sharp.
+title:            README
 description: >
-  Notes
+  README
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -34,7 +33,7 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang:           true
 
-syntax_highlighter_style: colorful
+syntax_highlighter_style: monokai
 
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
