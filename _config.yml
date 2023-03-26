@@ -39,21 +39,21 @@ remote_theme: sighingnow/jekyll-gitbook
 # markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:                /:categories/:year-:month-:day-:title:output_ext
+# permalink:                /:categories/:year-:month-:day-:title:output_ext
 
-exclude:
-  - _drafts
+# exclude:
+#   - _drafts
 
-collections:
-  pages:
-    output: true
-    permalink: /:collection/:path/
+# collections:
+#   pages:
+#     output: true
+#     permalink: /:collection/:path/
 
-page_width: 800px
+# page_width: 800px
 
-destination:      ./_site
-incremental:      false
-regenerate:       true
+# destination:      ./_site
+# incremental:      false
+# regenerate:       true
 
 plugins:
   - jekyll-feed
