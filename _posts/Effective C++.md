@@ -1,3 +1,11 @@
+---
+title: Effective C++
+author: Kaiyu Xie
+date: 2020-10-08
+category: Jekyll
+layout: post
+---
+
 # Effective C++
 55 Specific Ways to Improve Your Programs and Designs
 
@@ -21,13 +29,13 @@ prefer the *compiler* to the *preprocessor*
 ### Item 3: Use const whenever possible
 Example:
 ```cpp
-char greeting[] = "Hello"; char *p = greeting; 
+char greeting[] = "Hello"; char *p = greeting;
 // non-const pointer, non-const data
 
 const char *p = greeting;
 // non-const pointer, const data
 
-char * const p = greeting; 
+char * const p = greeting;
 // const pointer, non-const data
 
 const char * const p = greeting;

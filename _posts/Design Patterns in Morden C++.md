@@ -1,3 +1,11 @@
+---
+title: Design Patterns in Modern C++
+author: Kaiyu Xie
+date: 2020-10-08
+category: Jekyll
+layout: post
+---
+
 # Design Patterns in Modern C++
 Reusable Approaches for Object-Oriented Software Design
 
@@ -86,7 +94,7 @@ public:
     // other members here
 };
 ```
-Each of the above static functions is called a *Factory Method*.  
+Each of the above static functions is called a *Factory Method*.
 To create a point, simply write:
 ```cpp
 auto p = Point::NewPolar(5, M_PI_4);
@@ -285,9 +293,9 @@ static Database &get() {
 
 ## CHAPTER 6: Adapter
 Adapter allows you to adapt the interface you have to the interface you need.
-### The only issue with adapters 
-In the process of adaptation, you sometimes end up generating temporary data so as to satisfy some other representation of data. And when this happens, turn to caching: 
-* Ensure that new data is only generated when necessary. 
+### The only issue with adapters
+In the process of adaptation, you sometimes end up generating temporary data so as to satisfy some other representation of data. And when this happens, turn to caching:
+* Ensure that new data is only generated when necessary.
 * Clean up stale data when the cached objects have changed.
 
 ## CHAPTER 7: Bridge
