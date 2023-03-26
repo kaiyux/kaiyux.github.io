@@ -1,14 +1,18 @@
-theme: jekyll-theme-minimal
-title: Kaiyu's homepage
-description: Notes
-remote_theme: sighingnow/jekyll-gitbook
+# Configurations
+title:            Kaiyu's homepage
+longtitle:        Kaiyu's homepage
+description: >
+  Notes
 
-version:          0.1
+version:          1.0
 gitbook_version:  3.2.3
 
 url:              'https://sighingnow.github.io'
 baseurl:          '/jekyll-gitbook'
 rss:              RSS
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
 
 toc:
   enabled: true
